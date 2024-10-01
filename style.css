@@ -1,0 +1,169 @@
+body{
+    margin:0;
+    border:0;
+    font-family:sans-serif;
+}
+header{
+    background:#f6000a;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    box-shadow:0 0 2.5px -2px rgba(0,0,0,0.3);
+}
+.title{
+    font-size:80px;
+    font-weight:888;
+    color:white;
+    text-shadow:0 0 0.1px rgba(0,0,0,0.3);
+}
+.the{
+    font-size:50px;
+    text-align:center;
+    color:red;
+    font-weight:666;
+    padding-left:200px;
+    padding-right:200px;
+    text-shadow:0 0 0.1px rgba(0,0,0,0.3);
+}
+.show{
+    background:transparent;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
+.icon{
+    filter:drop-shadow(0 0 2.5px -2px rgba(0,0,0,0.3));
+    object-fit:cover;
+    object-position:center center;
+}
+.Stats{
+    background:transparent;
+    padding:20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.up{
+    text-align:center;
+    font-size:50px;
+    font-weight:555;
+    background:white;
+    padding:20px;
+    padding-left:60px;
+    padding-right:60px;
+    border-radius:40px;
+    border:0;
+    box-shadow:6.5px 6.5px 15px -2px rgba(0,0,0,0.1);
+    margin:45px;
+    
+}
+.ser{
+    color:red;
+    font-weight:888;
+    font-size:65px;
+}
+form{
+    background:transparent;
+}
+.ent{
+    font-size:60px;
+    text-align:center;
+    font-weight:888;
+    text-shadow:0 0 0.1px rgba(0,0,0,0.3);
+    padding-top:50px;
+}
+.pre{
+    font-size:40px;
+    text-align:center;
+    font-weight:444;
+    text-shadow:0 0 0.1px rgba(0,0,0,0.3);
+    padding-left:130px;
+    padding-right:130px;
+    padding-bottom:20px;
+}
+.Go{
+    text-align:center;
+    background:transparent;
+    padding:10px;
+}
+input[type="text"]{
+    font-size:50px;
+    text-shadow:0 0 0.1px rgba(0,0,0,0.3);
+    font-weight:666;
+    padding:26px;
+    padding-left:50px;
+    border-radius:70px;
+    border:solid 8px red;
+    background:transparent;
+    box-shadow:0 0 2.5px -2px rgba(0,0,0,0.3);
+    color:red;
+}
+input::placeholder{
+    color:black;
+    text-shadow:0 0 0.1px rgba(0,0,0,0.3);
+}
+a{
+    text-decoration:none;
+}
+.get{
+    margin-top:75px;
+    font-size:45px;
+    padding:30px;
+    padding-left:50px;
+    padding-right:50px;
+    border-radius:80px;
+    border:0;
+    font-weight:888;
+    text-shadow:0 0 0.1px rgba(0,0,0,0.3);
+    box-shadow:0 0 2.5px -2px rgba(0,0,0,0.3);
+    background:black;
+    color:white;
+    margin-bottom:100px;
+    transition:background 0.2s;
+}
+.get:hover{
+    background:red;
+}
+.Go2{
+    display:none;
+    justify-content:center;
+    align-items:center;
+    background:transparent;
+    padding:10px;
+}
+.container{
+    background:transparent;
+    padding-top:30px;
+    text-align:center;
+    margin-top:80px;
+}
+.tell{
+    font-size:40px;
+    text-align:center;
+    padding-left:80px;
+    padding-right:80px;
+    text-shadow:0 0 0.1px rgba(0,0,0,0.3);
+    font-weight:666;
+}
+.gene{
+    padding:20px;
+    font-size:50px;
+    font-weight:888;
+    padding-left:70px;
+    padding-right:70px;
+    border:solid 8px red;
+    margin-bottom:50px;
+    margin-top:200px;
+    background:transparent;
+    transition:background 0.6s;
+    transition:color;
+    color:red;
+    text-shadow:0 0 0.1px rgba(0,0,0,0.3);
+    border-radius:80px;
+    box-shadow:0 0 2.5px -2px rgba(0,0,0,0.3);
+}
+.gene:hover{
+    background:red;
+    color:white;
+}
